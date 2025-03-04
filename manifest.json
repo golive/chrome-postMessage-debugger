@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "postMessage debugger",
   "description": "This extension prints messages sent with postMessage to the console",
   "version": "0.2.1",
-  "browser_action": {
-    "name": "Debug postMessages"
+  "action": {
+    "default_title": "Debug postMessages"
   },
   "content_scripts": [
     {
